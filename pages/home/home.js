@@ -7,7 +7,7 @@ Page({
   data: {
     count:1,
     list:[],
-    arr:['衣服','鞋子','裤子']
+    arr:['衣服','鞋子','裤子','哈哈']
   },
   // 点击tab切换时传递的数据
   handleTableClick(e){

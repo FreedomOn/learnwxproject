@@ -1,2 +1,11 @@
 <!--pages/about/about.wxml-->
-<text>pages/about/about.wxml</text>
+<!-- 
+  1tost
+ -->
+ <button size="mini" bindtap="showtoast">showToast</button>
+ <!-- model -->
+  <button size="mini" bindtap="showmodel">showmodel</button>
+  <!-- 从底部展示对应的弹窗 -->
+<button size="mini" bindtap="showActionSheet">showActionSheet</button>
+<!-- 分享按钮 -->
+<button open-type="share">分享</button>

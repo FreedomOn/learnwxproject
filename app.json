@@ -1,9 +1,9 @@
 {
   "pages":[
-
+    "pages/about/about",
     "pages/home/home",
-    "pages/image/image",
-    "pages/about/about"
+    "pages/image/image"
+  
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -22,6 +22,11 @@
       "text": "图片",
       "iconPath": "/assest/image.png",
       "selectedIconPath": "/assest/image1.png"
+    },{
+      "pagePath": "pages/about/about",
+      "text": "网络",
+      "iconPath": "/assest/about.png",
+      "selectedIconPath": "/assest/about1.png"
     }]
   },
   "style": "v2",
