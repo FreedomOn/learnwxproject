@@ -1,2 +1,15 @@
 <!--pages/home/home.wxml-->
-<text>hello word</text>
+<w-tab titles="{{arr}}" bindtabclick="handleTableClick" />
+<!-- <text>hello word</text>
+<view> 啦啦啦啦</view> -->
+<!-- <view wx:for="{{list}}">
+  {{item.city}}
+</view> -->
+<!--  -->
+<view>点击home按钮修改子组件内的数据</view>
+<my-sel id="mysel" />
+<button bindtap="handlecpnData">home改变组件内的数据+1</button>
+<!-- 点击子组件的按钮修改home中的数据 -->
+<view>点击子组件的按钮修改home中的数据 </view>
+<view>{{count}}</view>
+<my-cpn bindadd="handleAdd" />
